@@ -1,0 +1,12 @@
+<h3>
+  hello-world works! 自定义组件
+</h3>
+
+<ul>
+  <li *ngFor="let item of hwS.helloWorlds">
+    {{item}}
+  </li>
+</ul>
+
+<input type="text" [(ngModel)]='hd' />
+<button (click)="append()">append</button>
